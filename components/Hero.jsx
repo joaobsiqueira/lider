@@ -18,10 +18,13 @@ const Hero = () => {
           <h2 className="text-4xl sm:text-6xl font-bold">
             Comida <span className="text-main ">Deliciosa</span>
           </h2>
-          <p>
+          <p className="text-gray-700 text[14px] sm:text-[16px] ">
             Um bom dia, começa na Padaria Líder! <br /> Venha conhecer uma de
             nossas unidades
           </p>
+          <button className="bg-main text-white px-6 py-4 rounded-3xl text-[14px] sm:text-[14px]">
+            Ver Mais
+          </button>
         </div>
       </div>
     </div>

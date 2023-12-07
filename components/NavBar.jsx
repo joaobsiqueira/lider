@@ -1,5 +1,6 @@
 import React from "react";
 import { IoMenu } from "react-icons/io5";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
@@ -9,10 +10,11 @@ const NavBar = () => {
           Líder
         </span>
         <ul className="md:flex hidden gap-12 items-center font-semibold text-xl">
-          <li>Produtos</li>
+          <Link href="/pages/Produtos">
+            <li>Produtos</li>
+          </Link>
           <li>Contato</li>
           <li>Filiais</li>
-
           <button className="bg-main text-white px-6 py-2 rounded-2xl">
             Cadastre-se
           </button>
