@@ -15,9 +15,14 @@ const NavBar = () => {
           </Link>
           <li>Contato</li>
           <li>Filiais</li>
-          <button className="bg-main text-white px-6 py-2 rounded-2xl">
-            Cadastre-se
-          </button>
+          <Link
+            href="/pages/Register
+          "
+          >
+            <button className="bg-main text-white px-6 py-2 rounded-2xl">
+              Login
+            </button>
+          </Link>
         </ul>
         <IoMenu className="md:hidden text-main" size={30} />
       </div>

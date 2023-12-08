@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import NavBar from "./NavBar";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -22,9 +23,11 @@ const Hero = () => {
             Um bom dia, começa na Padaria Líder! <br /> Venha conhecer uma de
             nossas unidades
           </p>
-          <button className="bg-main text-white px-6 py-4 rounded-3xl text-[14px] sm:text-[14px]">
-            Ver Mais
-          </button>
+          <Link href="/pages/Produtos">
+            <button className="bg-main text-white px-6 py-4 rounded-3xl text-[14px] sm:text-[14px]">
+              Ver Mais
+            </button>
+          </Link>
         </div>
       </div>
     </div>
