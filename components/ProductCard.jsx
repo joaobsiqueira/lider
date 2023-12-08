@@ -17,7 +17,7 @@ const ProductCard = () => {
           <div className="mt-4 flex justify-between flex-col gap-5">
             <span className="text-gray-600  font-semibold">R$9,00</span>
             <button className="bg-main w-full hover:bg-red-500 text-white font-semibold py-2 px-4 rounded">
-              Adicionar ao Carrinho
+              Comprar
             </button>
           </div>
         </div>

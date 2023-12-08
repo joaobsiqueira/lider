@@ -6,8 +6,10 @@ const pageProdutos = () => {
   return (
     <div>
       <NavBar />
-      <ProductCard />
-      <ProductCard />
+      <div className=" flex flex-row">
+        <ProductCard />
+        <ProductCard />
+      </div>
     </div>
   );
 };

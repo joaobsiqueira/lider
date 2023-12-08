@@ -10,10 +10,13 @@ const Feature = () => {
         Principais <span className="text-main">Produtos</span>
       </h2>
       <p className="max-w-[550px] pt-10 text-gray-700">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-        exercitationem maiores minima temporibus quidem, suscipit adipisci,
-        necessitatibus saepe at que recusandae aperiam odio sequi fugiat ipsa?
-        Omnis suscipit blanditiis optio illum!
+        Do encantador ao prático, do inovador ao clássico, cada produto é
+        resultado de um comprometimento constante com a qualidade, o design e a
+        satisfação do cliente. Explore esta seleção e descubra por que esses
+        itens têm conquistado tantos corações e se destacado entre tantas opções
+        disponíveis. Seja bem-vindo(a) a esta coleção especial, onde a
+        popularidade se alia à qualidade para oferecer uma experiência única e
+        encantadora a cada escolha.
       </p>
       <Dash />
       <div className="grid md:grid-cols-[1fr,37%,1fr] gap-16 mt-16">
@@ -29,9 +32,11 @@ const Feature = () => {
             <Dash />
             <h2 className=" font-medium text-xl">Salada de Camarão</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              suscipit, quibusdam laudantium ipsum consequuntur dolor
-              necessitatibus porro?
+              A Padaria Líder brilha com sua salada de camarão, um prato que une
+              a frescura dos camarões selecionados cuidadosamente com a
+              crocância dos vegetais. Uma explosão de sabores, onde o mar se
+              encontra com a terra, em cada garfada. Uma verdadeira celebração
+              de frescor e qualidade, servida com excelência na Padaria Líder.
             </p>
           </div>
         </div>
@@ -48,9 +53,11 @@ const Feature = () => {
             <Dash />
             <h2 className=" font-medium text-xl">Maçã Recheada</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              suscipit, quibusdam laudantium ipsum consequuntur dolor
-              necessitatibus porro?
+              "Na Padaria Líder, a maçã recheada é a combinação perfeita de
+              simplicidade e sabor. Maçãs cuidadosamente selecionadas, recheadas
+              com nozes, passas e canela, assadas para criar uma explosão de
+              sabores. Uma doçura equilibrada, servida com a dedicação
+              característica da padaria."
             </p>
           </div>
         </div>
@@ -65,11 +72,12 @@ const Feature = () => {
           />
           <div className="space-y-4">
             <Dash />
-            <h2 className=" font-medium text-xl">Lamen</h2>
+            <h2 className=" font-medium text-xl">Frango Cereja</h2>
             <p className="text-gray-700 text-[14px] xl:text-[16px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              suscipit, quibusdam laudantium ipsum consequuntur dolor
-              necessitatibus porro?
+              "Na Padaria Líder, o frango cereja é uma explosão de sabores.
+              Frango suculento, delicadamente preparado, ganha um toque especial
+              com cerejas que adicionam um contraste doce e ácido. Uma
+              combinação memorável de sabores, servida com maestria na padaria."
             </p>
           </div>
         </div>

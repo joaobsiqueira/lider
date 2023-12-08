@@ -6,9 +6,11 @@ const NavBar = () => {
   return (
     <div className="container pt-6">
       <div className="flex justify-between items-center">
-        <span className="text-3xl md:text-5xl font-bold text-red-500">
-          Líder
-        </span>
+        <Link href="/">
+          <span className="text-3xl md:text-5xl font-bold text-red-500">
+            Líder
+          </span>
+        </Link>
         <ul className="md:flex hidden gap-12 items-center font-semibold text-xl">
           <Link href="/pages/Produtos">
             <li>Produtos</li>
